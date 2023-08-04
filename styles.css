@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(160, 23, 23);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    height: 800px;
+
+}
+
+header{
+    display: flex;
+    background-color: rgb(252, 247, 247);
+    height: 175px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.contenedor_img{
+    display: flex;
+}
+
+
+
+.perfil{
+    width: 150px;
+    height: 150px;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 175px;
+}
+
+.about{
+    background-color: rgb(127, 153, 110);
+    display: flex;
+    height: 75px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulo{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.parrafo{
+    width: 60%;
+    font-size: 11px;
+    color: white;
+}
+
+.principal{
+    display: flex;
+}
+
+.contacto{
+    width: 30%;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.info h3{
+    font-size: 14px;
+}
+
+.info ul{
+    font-size: 12px;
+    list-style-type:none;
+}
+
+.experiencia{
+    width: 70%;
+    background-color: rgb(252, 247, 247);
+    height: 200px;
+    flex-direction: flex;
+    align-items: center;
+}
+
+.info.exp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(252, 247, 247);
+    height: 500px;
+}
+.div-experiencia{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+.padding-main-text{
+    padding-bottom: 5%;
+}
+
+.info{
+    width: 100%;
+    padding-left: 30px;
+}
+
+.Experiencia-padding{
+    padding-top: 3%;
+}
+
+.padding-bottom-contacto{
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.parrafo-padding-right{
+    padding-right: 10%;
+}
+
